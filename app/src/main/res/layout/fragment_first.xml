@@ -14,23 +14,23 @@
         android:padding="16dp">
 
         <Button
-            android:id="@+id/button_first"
+            android:id="@+id/random_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
             android:rotation="0"
             android:rotationX="0"
             android:rotationY="0"
-            android:text="@string/next"
-            app:layout_constraintBottom_toTopOf="@id/textview_first"
+            android:text="@string/random_button_text"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/textview_first" />
 
         <TextView
             android:id="@+id/textview_first"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="320dp"
+            android:layout_marginTop="130dp"
             android:background="@color/colorPrimaryDark"
             android:fontFamily="sans-serif-black"
             android:text="@string/hello"
@@ -41,7 +41,16 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/button_first" />
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/toast_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toast_button_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/random_button" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
