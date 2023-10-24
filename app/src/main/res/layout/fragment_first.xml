@@ -39,7 +39,7 @@
             android:textAlignment="viewEnd"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/textColor"
-            android:textSize="34sp"
+            android:textSize="96sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
