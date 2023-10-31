@@ -17,7 +17,7 @@
             android:id="@+id/random_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="180dp"
+            android:layout_marginTop="500dp"
             android:layout_marginEnd="24dp"
             android:background="@color/buttonBackground"
             android:backgroundTint="@null"
@@ -28,7 +28,7 @@
             android:textColor="@color/textColor"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textview_first" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textview_first"
@@ -40,6 +40,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/textColor"
             android:textSize="96sp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -52,6 +53,7 @@
             android:layout_marginStart="24dp"
             android:background="@color/buttonBackground"
             android:backgroundTint="@null"
+            android:backgroundTintMode="src_in"
             android:text="@string/toast_button_text"
             android:textColor="@color/textColor"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -64,6 +66,7 @@
             android:layout_height="wrap_content"
             android:background="@color/buttonBackground"
             android:backgroundTint="@null"
+            android:backgroundTintMode="src_over"
             android:text="@string/count_button_text"
             android:textColor="@color/textColor"
             app:layout_constraintBottom_toBottomOf="parent"

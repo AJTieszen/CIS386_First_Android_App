@@ -8,8 +8,8 @@
     tools:context=".SecondFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="424dp"
-        android:layout_height="746dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:padding="16dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
@@ -24,23 +24,24 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintVertical_bias="0.906" />
 
         <TextView
             android:id="@+id/textview_second"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/hello"
+            android:text="R"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/textColor"
             android:textSize="96sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@+id/button_second"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textView_header"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/random_heading"
